@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: quantum-quantum-digital-twin
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: quantum
+  template:
+    metadata:
+      labels:
+        app: quantum
+    spec:
+      containers:
+      - name: solver
+        image: quantum/quantum-digital-twin:latest

@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: quantum-hydrogen-logistics
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: quantum
+  template:
+    metadata:
+      labels:
+        app: quantum
+    spec:
+      containers:
+      - name: solver
+        image: quantum/hydrogen-logistics:latest

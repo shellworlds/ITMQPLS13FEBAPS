@@ -1,0 +1,13 @@
+{
+  "layers": [
+    64,
+    64,
+    1
+  ],
+  "activation": "relu",
+  "optimizer": "adam",
+  "loss": "mse",
+  "epochs": 20,
+  "final_train_loss": 0.07191304117441177,
+  "final_val_loss": 0.08210346102714539
+}

@@ -1,0 +1,10 @@
+{
+  "optimal_energy": -1.137,
+  "parameters": [
+    0.123,
+    0.456
+  ],
+  "shots": 1024,
+  "qubits": 2,
+  "optimizer": "COBYLA"
+}

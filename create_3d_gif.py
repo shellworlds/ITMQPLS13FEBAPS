@@ -6,10 +6,11 @@ from mpl_toolkits.mplot3d import Axes3D
 import imageio
 from PIL import Image
 
-x = np.linspace(-5, 5, 30)
-y = np.linspace(-5, 5, 30)
+# Simulate molecular orbital
+x = np.linspace(-3, 3, 30)
+y = np.linspace(-3, 3, 30)
 X, Y = np.meshgrid(x, y)
-Z = np.sin(np.sqrt(X**2 + Y**2))
+Z = np.exp(-X**2 - Y**2) * np.sin(X) * np.cos(Y)  # some pattern
 
 frames = []
 for angle in range(0, 360, 15):
@@ -27,5 +28,5 @@ for angle in range(0, 360, 15):
     frames.append(np.array(img))
     plt.close(fig)
 
-imageio.mimsave('3d_rotation.gif', frames, fps=10, loop=0)
-print("3D rotation GIF saved as 3d_rotation.gif")
+imageio.mimsave('orbital_3d.gif', frames, fps=10, loop=0)
+print("3D orbital GIF saved.")

@@ -1,0 +1,13 @@
+{
+  "material": "NiFeCo",
+  "formation_energy_eV": -12.3,
+  "band_gap_eV": 1.2,
+  "dft_code": "VASP",
+  "kpoints": [
+    4,
+    4,
+    4
+  ],
+  "encut": 520,
+  "converged": true
+}

@@ -1,0 +1,12 @@
+{
+  "best_composition": [
+    "Co",
+    "Cr",
+    "Fe",
+    "Mo",
+    "Ni"
+  ],
+  "energy": -3.9999999999999996,
+  "num_variables": 5,
+  "num_samples": 32
+}

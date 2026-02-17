@@ -1,0 +1,8 @@
+{
+  "location": "Baytown, Texas (John Cockerill Gigafactory)",
+  "period": "2025-01",
+  "mean_irradiance": 531.8287056789698,
+  "max_irradiance": 774.9771461786565,
+  "min_irradiance": 221.2946726079475,
+  "source": "Copernicus Sentinel-2 (simulated)"
+}
